@@ -2,13 +2,13 @@
 
 **Cybersecurity GRC Specialist | MSc Cyber Security | UK Public-Sector Security**
 
-Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 11,000+ lines of code.
+Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 21,000+ lines of code.
 
 ---
 
 ## Portfolio Projects
 
-Four complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection to central government supply-chain risk management. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
+Five complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection to central government GovAssure assurance. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
 
 ### 1. NHS DSPT Compliance Assessment
 
@@ -87,16 +87,38 @@ Complete TPRM programme: governance policy, supplier tiering methodology (4-tier
 
 ---
 
+### 5. GovAssure CAF Risk Assessment Toolkit
+
+[![GovAssure](https://img.shields.io/badge/GovAssure-2025--26-003078.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/govassure-caf-risk-assessment-toolkit)
+[![NCSC CAF](https://img.shields.io/badge/NCSC-CAF%20v3.2-005ea5.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/govassure-caf-risk-assessment-toolkit)
+[![Orange Book](https://img.shields.io/badge/HM%20Treasury-Orange%20Book-orange.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/govassure-caf-risk-assessment-toolkit)
+[![GovS 007](https://img.shields.io/badge/GovS-007%20Security-black.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/govassure-caf-risk-assessment-toolkit)
+
+> **Organisation:** Department for Digital Infrastructure (fictional central government department)
+> **Sector:** Central Government | **Staff:** 4,500
+
+Complete GovAssure-aligned CAF risk assessment toolkit covering the full 5-stage annual assurance cycle. Includes 39-outcome self-assessment, Enhanced vs Baseline profile comparison, Orange Book risk register with Monte Carlo simulation, and Stage 5 targeted improvement plan (£1.8M remediation roadmap).
+
+**Tooling:** 4 Python scripts (9,765 lines):
+- `caf_self_assessor.py` — Full CAF v3.2 engine: 39 contributing outcomes, IGP mapping, profile comparison, gap analysis
+- `govassure_stage_tracker.py` — 5-stage process tracker: evidence collection, RACI matrix, milestones, readiness scoring
+- `risk_register_engine.py` — 9-risk Orange Book register: Monte Carlo simulation (10K iterations), heatmap, appetite analysis
+- `improvement_planner.py` — 30 actions across 4 priority bands: Gantt chart, dependency tracking, 10 KPIs
+
+[**View Repository →**](https://github.com/harish-muddisetty-cybersecurityGRC/govassure-caf-risk-assessment-toolkit)
+
+---
+
 ## Portfolio at a Glance
 
 | Metric | Value |
 |---|---|
-| **Projects** | 4 complete GRC toolkits |
-| **Documentation** | 56 governance documents |
-| **Python Scripts** | 12 advanced CLI tools |
-| **Lines of Code** | 11,263 (Python, zero external dependencies) |
-| **Frameworks Covered** | 15+ UK/international standards |
-| **Fictional Organisations** | 4 (NHS, local gov, central gov) |
+| **Projects** | 5 complete GRC toolkits |
+| **Documentation** | 69 governance documents |
+| **Python Scripts** | 16 advanced CLI tools |
+| **Lines of Code** | 21,028 (Python, zero external dependencies) |
+| **Frameworks Covered** | 20+ UK/international standards |
+| **Fictional Organisations** | 5 (NHS, local gov ×2, central gov ×2) |
 | **Export Formats** | JSON, HTML, CSV, ANSI terminal |
 
 ---
@@ -107,7 +129,7 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 
 | Category | Frameworks |
 |---|---|
-| **UK Government** | NCSC Cyber Assessment Framework (CAF), GovAssure, Cabinet Office MCSS, GovS 007: Security, LGA Cyber Security Stocktake |
+| **UK Government** | NCSC Cyber Assessment Framework (CAF) v3.2, GovAssure (5-stage assurance), Cabinet Office MCSS, GovS 007: Security, Government Cyber Security Strategy 2022-2030, Security Policy Framework, LGA Cyber Security Stocktake |
 | **NHS & Health** | NHS Data Security and Protection Toolkit (DSPT), NDG 10 Data Standards, NHS Wales IG Toolkit |
 | **International Standards** | ISO/IEC 27001:2022, ISO 27005, ISO 27035, NIST SP 800-61, NIST CSF 2.0 |
 | **Cyber Certifications** | Cyber Essentials, Cyber Essentials Plus |
@@ -124,10 +146,10 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
-| Risk Assessment & Treatment | Advanced | ISO 27001 Toolkit (Monte Carlo simulation, risk registers) |
+| Risk Assessment & Treatment | Advanced | ISO 27001 Toolkit, GovAssure Toolkit (Monte Carlo simulation, Orange Book risk registers) |
 | Policy & Procedure Development | Advanced | All 4 projects (56 governance documents) |
 | Compliance Gap Analysis | Advanced | ISO 27001 Toolkit (multi-framework, CMM maturity) |
-| Internal Audit & Assurance | Advanced | ISO 27001 Toolkit, TPRM Toolkit (audit tracker, 15 KRIs) |
+| Internal Audit & Assurance | Advanced | ISO 27001 Toolkit, TPRM Toolkit, GovAssure Toolkit (audit tracker, KRIs, CAF self-assessment) |
 | Third-Party Risk Management | Advanced | TPRM Toolkit (150-supplier portfolio, tiering, questionnaires) |
 | Incident Response Planning | Advanced | Incident Simulation (5 scenarios, MITRE ATT&CK, 7-domain scoring) |
 | Data Protection (UK GDPR) | Intermediate | TPRM Toolkit (DPA templates, DPIA reviews) |
@@ -137,12 +159,12 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
-| Python (CLI Tools) | Advanced | 12 scripts, 11,263 lines, dataclasses, argparse, multi-format export |
+| Python (CLI Tools) | Advanced | 16 scripts, 21,028 lines, dataclasses, argparse, multi-format export |
 | Data Modelling | Advanced | Complex dataclass hierarchies across all 4 projects |
 | JSON / HTML / CSV Export | Advanced | All 12 scripts support structured data export |
-| Git & GitHub | Proficient | 4 repositories, detailed commits, topics, documentation |
+| Git & GitHub | Proficient | 5 repositories, detailed commits, topics, documentation |
 | MITRE ATT&CK Mapping | Intermediate | Incident Simulation (5 scenarios fully mapped) |
-| Security Frameworks | Advanced | 15+ frameworks implemented across 4 projects |
+| Security Frameworks | Advanced | 20+ frameworks implemented across 5 projects |
 
 ### Sector Knowledge
 
@@ -150,7 +172,7 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 |---|---|---|
 | NHS / Health Boards | Strong | DSPT assessment, NDG standards, health data governance |
 | Welsh Local Government | Strong | 2 council-based projects (Cwmbran, Pemberton) |
-| UK Central Government | Strong | TPRM for Welsh Government Digital Services, GovAssure alignment |
+| UK Central Government | Strong | TPRM for Welsh Gov Digital Services, GovAssure CAF toolkit for DDI, Orange Book risk methodology |
 | Public Sector Procurement | Moderate | Contract security schedules, DPA templates, supplier tiering |
 
 ---
