@@ -2,13 +2,13 @@
 
 **Cybersecurity GRC Specialist | MSc Cyber Security | UK Public-Sector Security**
 
-Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 48,000+ lines of code.
+Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 61,000+ lines of code.
 
 ---
 
 ## Portfolio Projects
 
-Seven complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection and clinical risk management to local government LG CAF self-assessment and central government GovAssure assurance. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
+Eight complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection and clinical risk management to local government LG CAF self-assessment and central government GovAssure assurance. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
 
 ### 1. NHS DSPT Compliance Assessment
 
@@ -153,16 +153,38 @@ Complete LG CAF self-assessment toolkit aligned to the NCSC Cyber Assessment Fra
 
 ---
 
+### 8. Cyber Essentials Readiness Audit Toolkit
+
+[![CE](https://img.shields.io/badge/Cyber-Essentials%20v3.2-005ea5.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/council-cyber-essentials-audit)
+[![CE+](https://img.shields.io/badge/Cyber%20Essentials-Plus-ff6600.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/council-cyber-essentials-audit)
+[![IASME](https://img.shields.io/badge/IASME-Willow%202025-green.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/council-cyber-essentials-audit)
+[![G-Cloud](https://img.shields.io/badge/G--Cloud-15-003078.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/council-cyber-essentials-audit)
+
+> **Organisation:** Thornbridge County Council (fictional county council, South West England)
+> **Sector:** Local Government | **Staff:** 3,800 | **Residents:** 520,000
+
+Complete Cyber Essentials and CE+ readiness audit toolkit aligned to NCSC CE Requirements v3.2 (Willow, April 2025). Covers all 5 technical controls (firewalls, secure configuration, security updates, user access, malware protection), IASME SAQ question mapping, CE+ independent audit simulation, asset compliance scanning across 4,200 endpoints, and £280K remediation programme management.
+
+**Tooling:** 4 Python scripts (13,495 lines):
+- `ce_readiness_assessor.py` — Full CE self-assessment engine: 5 controls, 40 requirements, SAQ mapping, risk-rated findings
+- `asset_compliance_scanner.py` — Asset inventory compliance: 252 assets, 6 categories, 111 gaps detected, EOL tracking
+- `ce_plus_audit_simulator.py` — CE+ audit simulation: external/internal vuln scans, 420-device sample, MFA/config/account checks
+- `remediation_tracker.py` — Remediation programme: 29 actions, 4 phases, sprint planning, budget tracking, governance reporting
+
+[**View Repository →**](https://github.com/harish-muddisetty-cybersecurityGRC/council-cyber-essentials-audit)
+
+---
+
 ## Portfolio at a Glance
 
 | Metric | Value |
 |---|---|
-| **Projects** | 7 complete GRC toolkits |
-| **Documentation** | 93 governance documents |
-| **Python Scripts** | 24 advanced CLI tools |
-| **Lines of Code** | 48,220 (Python, zero external dependencies) |
-| **Frameworks Covered** | 28+ UK/international standards |
-| **Fictional Organisations** | 7 (NHS ×2, local gov ×3, central gov ×2) |
+| **Projects** | 8 complete GRC toolkits |
+| **Documentation** | 105 governance documents |
+| **Python Scripts** | 28 advanced CLI tools |
+| **Lines of Code** | 61,715 (Python, zero external dependencies) |
+| **Frameworks Covered** | 30+ UK/international standards |
+| **Fictional Organisations** | 8 (NHS ×2, local gov ×4, central gov ×2) |
 | **Export Formats** | JSON, HTML, CSV, ANSI terminal |
 
 ---
@@ -176,7 +198,7 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 | **UK Government** | NCSC Cyber Assessment Framework (CAF) v3.2, GovAssure (5-stage assurance), LG CAF (Local Government adaptation), Cabinet Office MCSS, GovS 007: Security, Government Cyber Security Strategy 2022-2030, Security Policy Framework, LGA Cyber 360, LGA Cyber Security Stocktake, MHCLG Local Digital Cyber Guidance |
 | **NHS & Health** | NHS Data Security and Protection Toolkit (DSPT), NDG 10 Data Standards, NHS Wales IG Toolkit, DCB0129/DCB0160 Clinical Safety, NHS England SIRO Reporting |
 | **International Standards** | ISO/IEC 27001:2022, ISO 27005:2022, ISO 27035, ISO 31000:2018, NIST SP 800-61, NIST CSF 2.0 |
-| **Cyber Certifications** | Cyber Essentials, Cyber Essentials Plus |
+| **Cyber Certifications** | Cyber Essentials v3.2 (Willow), Cyber Essentials Plus, IASME Cyber Assurance, G-Cloud 15 |
 | **Supply Chain** | NCSC Supply Chain Security Guidance (12 Principles), NIS Regulations 2018, NIS Directive (Essential Services) |
 | **Data Protection** | UK GDPR, Data Protection Act 2018, ICO Guidance |
 | **Threat Intelligence** | MITRE ATT&CK Framework |
@@ -191,7 +213,7 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
 | Risk Assessment & Treatment | Advanced | ISO 27001 Toolkit, GovAssure Toolkit, NHS Risk Register, LG CAF Toolkit (Monte Carlo simulation, Orange Book registers, ISO 27005 dual-approach, clinical safety overlay, CAF maturity scoring) |
-| Policy & Procedure Development | Advanced | All 7 projects (93 governance documents) |
+| Policy & Procedure Development | Advanced | All 8 projects (105 governance documents) |
 | Compliance Gap Analysis | Advanced | ISO 27001 Toolkit, LG CAF Toolkit (multi-framework, CMM maturity, CAF contributing outcomes, Cyber 360 alignment) |
 | Internal Audit & Assurance | Advanced | ISO 27001 Toolkit, TPRM Toolkit, GovAssure Toolkit, NHS Risk Register, LG CAF Toolkit (audit tracker, 12 KRIs, CAF self-assessment, independent assurance, Cyber 360 review, continuous monitoring) |
 | Third-Party Risk Management | Advanced | TPRM Toolkit (150-supplier portfolio, tiering, questionnaires) |
@@ -203,19 +225,19 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
-| Python (CLI Tools) | Advanced | 24 scripts, 48,220 lines, dataclasses, argparse, multi-format export |
-| Data Modelling | Advanced | Complex dataclass hierarchies across all 7 projects |
-| JSON / HTML / CSV Export | Advanced | All 24 scripts support structured data export |
-| Git & GitHub | Proficient | 7 repositories, detailed commits, topics, documentation |
+| Python (CLI Tools) | Advanced | 28 scripts, 61,715 lines, dataclasses, argparse, multi-format export |
+| Data Modelling | Advanced | Complex dataclass hierarchies across all 8 projects |
+| JSON / HTML / CSV Export | Advanced | All 28 scripts support structured data export |
+| Git & GitHub | Proficient | 8 repositories, detailed commits, topics, documentation |
 | MITRE ATT&CK Mapping | Intermediate | Incident Simulation (5 scenarios fully mapped) |
-| Security Frameworks | Advanced | 28+ frameworks implemented across 7 projects |
+| Security Frameworks | Advanced | 30+ frameworks implemented across 8 projects |
 
 ### Sector Knowledge
 
 | Sector | Knowledge Level | Evidence |
 |---|---|---|
 | NHS / Health Boards | Strong | DSPT assessment, NDG standards, health data governance, ISO 27001 risk register for acute Trust, clinical systems risk profiling, SIRO reporting |
-| Welsh & English Local Government | Strong | 3 council-based projects (Cwmbran, Pemberton, Ridgeworth Metropolitan Borough) |
+| Welsh & English Local Government | Strong | 4 council-based projects (Cwmbran, Pemberton, Ridgeworth, Thornbridge) |
 | UK Central Government | Strong | TPRM for Welsh Gov Digital Services, GovAssure CAF toolkit for DDI, Orange Book risk methodology |
 | Public Sector Procurement | Moderate | Contract security schedules, DPA templates, supplier tiering |
 
