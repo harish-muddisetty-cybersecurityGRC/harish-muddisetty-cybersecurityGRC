@@ -2,13 +2,13 @@
 
 **Cybersecurity GRC Specialist | MSc Cyber Security | UK Public-Sector Security**
 
-Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 21,000+ lines of code.
+Governance, Risk, and Compliance (GRC) professional targeting NHS health boards, local government councils, and central government departments across Wales and the UK. I build production-grade compliance toolkits, risk assessment engines, and assurance frameworks aligned to NCSC, NHS, and ISO standards — backed by advanced Python tooling with 35,000+ lines of code.
 
 ---
 
 ## Portfolio Projects
 
-Five complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection to central government GovAssure assurance. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
+Six complete GRC portfolio projects covering the full spectrum of UK public-sector cyber security — from NHS data protection and clinical risk management to central government GovAssure assurance. Every project includes detailed governance documentation, realistic fictional organisations, and advanced Python CLI tools with JSON/HTML/CSV export.
 
 ### 1. NHS DSPT Compliance Assessment
 
@@ -109,16 +109,38 @@ Complete GovAssure-aligned CAF risk assessment toolkit covering the full 5-stage
 
 ---
 
+### 6. NHS Trust ISO 27001 Risk Register
+
+[![ISO 27001](https://img.shields.io/badge/ISO-27001%3A2022-green.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/nhs-trust-iso27001-risk-register)
+[![ISO 27005](https://img.shields.io/badge/ISO-27005%3A2022-green.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/nhs-trust-iso27001-risk-register)
+[![NHS DSPT](https://img.shields.io/badge/NHS-DSPT-005eb8.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/nhs-trust-iso27001-risk-register)
+[![Clinical Safety](https://img.shields.io/badge/DCB0129-Clinical%20Safety-c41e3a.svg)](https://github.com/harish-muddisetty-cybersecurityGRC/nhs-trust-iso27001-risk-register)
+
+> **Organisation:** Merthyr Tydfil NHS Foundation Trust (fictional mid-sized acute Trust)
+> **Sector:** NHS England (Acute Trust) | **Staff:** 3,500 | **Beds:** 650
+
+Complete ISO 27001:2022-aligned information security risk register for an NHS acute Trust. Dual-approach risk methodology (asset-based + scenario-based per ISO 27005:2022), 29-asset information asset register, 20 risks with clinical safety overlay, 93-control Statement of Applicability, £1.6M risk treatment plan, 12 Key Risk Indicators, and third-party risk addendum for NHS shared services.
+
+**Tooling:** 4 Python scripts (14,453 lines):
+- `risk_register_manager.py` — Full risk lifecycle: 20 risks, 6×6 clinical-weighted matrix, treatment tracking, ISO 27005 dual-approach
+- `asset_risk_mapper.py` — 29-asset register with threat modelling, BIA scoring, asset-to-risk linkage, dependency mapping
+- `soa_risk_linker.py` — 93 Annex A controls: risk-to-control mapping, residual risk recalculation, gap analysis, treatment validation
+- `risk_reporting_engine.py` — Board-level dashboards: KRI monitoring, trend analysis, heatmaps, executive summaries, SIRO reporting pack
+
+[**View Repository →**](https://github.com/harish-muddisetty-cybersecurityGRC/nhs-trust-iso27001-risk-register)
+
+---
+
 ## Portfolio at a Glance
 
 | Metric | Value |
 |---|---|
-| **Projects** | 5 complete GRC toolkits |
-| **Documentation** | 69 governance documents |
-| **Python Scripts** | 16 advanced CLI tools |
-| **Lines of Code** | 21,028 (Python, zero external dependencies) |
-| **Frameworks Covered** | 20+ UK/international standards |
-| **Fictional Organisations** | 5 (NHS, local gov ×2, central gov ×2) |
+| **Projects** | 6 complete GRC toolkits |
+| **Documentation** | 81 governance documents |
+| **Python Scripts** | 20 advanced CLI tools |
+| **Lines of Code** | 35,481 (Python, zero external dependencies) |
+| **Frameworks Covered** | 25+ UK/international standards |
+| **Fictional Organisations** | 6 (NHS ×2, local gov ×2, central gov ×2) |
 | **Export Formats** | JSON, HTML, CSV, ANSI terminal |
 
 ---
@@ -130,13 +152,13 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 | Category | Frameworks |
 |---|---|
 | **UK Government** | NCSC Cyber Assessment Framework (CAF) v3.2, GovAssure (5-stage assurance), Cabinet Office MCSS, GovS 007: Security, Government Cyber Security Strategy 2022-2030, Security Policy Framework, LGA Cyber Security Stocktake |
-| **NHS & Health** | NHS Data Security and Protection Toolkit (DSPT), NDG 10 Data Standards, NHS Wales IG Toolkit |
-| **International Standards** | ISO/IEC 27001:2022, ISO 27005, ISO 27035, NIST SP 800-61, NIST CSF 2.0 |
+| **NHS & Health** | NHS Data Security and Protection Toolkit (DSPT), NDG 10 Data Standards, NHS Wales IG Toolkit, DCB0129/DCB0160 Clinical Safety, NHS England SIRO Reporting |
+| **International Standards** | ISO/IEC 27001:2022, ISO 27005:2022, ISO 27035, ISO 31000:2018, NIST SP 800-61, NIST CSF 2.0 |
 | **Cyber Certifications** | Cyber Essentials, Cyber Essentials Plus |
 | **Supply Chain** | NCSC Supply Chain Security Guidance (12 Principles), NIS Regulations 2018 |
 | **Data Protection** | UK GDPR, Data Protection Act 2018, ICO Guidance |
 | **Threat Intelligence** | MITRE ATT&CK Framework |
-| **Risk Management** | HM Treasury Orange Book, ISO 31000 |
+| **Risk Management** | HM Treasury Orange Book, ISO 31000, ISO 27005:2022 (dual-approach methodology) |
 
 ---
 
@@ -146,31 +168,31 @@ Comprehensive coverage of UK public-sector cyber security and governance framewo
 
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
-| Risk Assessment & Treatment | Advanced | ISO 27001 Toolkit, GovAssure Toolkit (Monte Carlo simulation, Orange Book risk registers) |
-| Policy & Procedure Development | Advanced | All 4 projects (56 governance documents) |
+| Risk Assessment & Treatment | Advanced | ISO 27001 Toolkit, GovAssure Toolkit, NHS Risk Register (Monte Carlo simulation, Orange Book registers, ISO 27005 dual-approach, clinical safety overlay) |
+| Policy & Procedure Development | Advanced | All 6 projects (81 governance documents) |
 | Compliance Gap Analysis | Advanced | ISO 27001 Toolkit (multi-framework, CMM maturity) |
-| Internal Audit & Assurance | Advanced | ISO 27001 Toolkit, TPRM Toolkit, GovAssure Toolkit (audit tracker, KRIs, CAF self-assessment) |
+| Internal Audit & Assurance | Advanced | ISO 27001 Toolkit, TPRM Toolkit, GovAssure Toolkit, NHS Risk Register (audit tracker, 12 KRIs, CAF self-assessment, continuous monitoring) |
 | Third-Party Risk Management | Advanced | TPRM Toolkit (150-supplier portfolio, tiering, questionnaires) |
 | Incident Response Planning | Advanced | Incident Simulation (5 scenarios, MITRE ATT&CK, 7-domain scoring) |
-| Data Protection (UK GDPR) | Intermediate | TPRM Toolkit (DPA templates, DPIA reviews) |
-| Board-Level Reporting | Advanced | TPRM Toolkit (Board reporting pack), Incident Sim (post-exercise reports) |
+| Data Protection (UK GDPR) | Advanced | TPRM Toolkit (DPA templates, DPIA reviews), NHS Risk Register (DPIA template, clinical data governance) |
+| Board-Level Reporting | Advanced | TPRM Toolkit (Board reporting pack), Incident Sim (post-exercise reports), NHS Risk Register (SIRO reporting, KRI dashboards) |
 
 ### Technical
 
 | Skill | Proficiency | Demonstrated In |
 |---|---|---|
-| Python (CLI Tools) | Advanced | 16 scripts, 21,028 lines, dataclasses, argparse, multi-format export |
-| Data Modelling | Advanced | Complex dataclass hierarchies across all 4 projects |
-| JSON / HTML / CSV Export | Advanced | All 12 scripts support structured data export |
-| Git & GitHub | Proficient | 5 repositories, detailed commits, topics, documentation |
+| Python (CLI Tools) | Advanced | 20 scripts, 35,481 lines, dataclasses, argparse, multi-format export |
+| Data Modelling | Advanced | Complex dataclass hierarchies across all 6 projects |
+| JSON / HTML / CSV Export | Advanced | All 20 scripts support structured data export |
+| Git & GitHub | Proficient | 6 repositories, detailed commits, topics, documentation |
 | MITRE ATT&CK Mapping | Intermediate | Incident Simulation (5 scenarios fully mapped) |
-| Security Frameworks | Advanced | 20+ frameworks implemented across 5 projects |
+| Security Frameworks | Advanced | 25+ frameworks implemented across 6 projects |
 
 ### Sector Knowledge
 
 | Sector | Knowledge Level | Evidence |
 |---|---|---|
-| NHS / Health Boards | Strong | DSPT assessment, NDG standards, health data governance |
+| NHS / Health Boards | Strong | DSPT assessment, NDG standards, health data governance, ISO 27001 risk register for acute Trust, clinical systems risk profiling, SIRO reporting |
 | Welsh Local Government | Strong | 2 council-based projects (Cwmbran, Pemberton) |
 | UK Central Government | Strong | TPRM for Welsh Gov Digital Services, GovAssure CAF toolkit for DDI, Orange Book risk methodology |
 | Public Sector Procurement | Moderate | Contract security schedules, DPA templates, supplier tiering |
